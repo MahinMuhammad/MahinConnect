@@ -11,6 +11,8 @@
 		004BE27F2A38378800A1C59C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004BE27E2A38378800A1C59C /* ContentView.swift */; };
 		004BE2812A38378900A1C59C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 004BE2802A38378900A1C59C /* Assets.xcassets */; };
 		004BE2842A38378900A1C59C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 004BE2832A38378900A1C59C /* Preview Assets.xcassets */; };
+		004BE28B2A3838FA00A1C59C /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004BE28A2A3838FA00A1C59C /* InfoView.swift */; };
+		004BE28D2A38394200A1C59C /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004BE28C2A38394200A1C59C /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		004BE27E2A38378800A1C59C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		004BE2802A38378900A1C59C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		004BE2832A38378900A1C59C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		004BE28A2A3838FA00A1C59C /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
+		004BE28C2A38394200A1C59C /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +57,8 @@
 			children = (
 				004BE27C2A38378800A1C59C /* MahinConnectApp.swift */,
 				004BE27E2A38378800A1C59C /* ContentView.swift */,
+				004BE28A2A3838FA00A1C59C /* InfoView.swift */,
+				004BE28C2A38394200A1C59C /* WebView.swift */,
 				004BE2802A38378900A1C59C /* Assets.xcassets */,
 				004BE2822A38378900A1C59C /* Preview Content */,
 			);
@@ -138,6 +144,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				004BE27F2A38378800A1C59C /* ContentView.swift in Sources */,
+				004BE28D2A38394200A1C59C /* WebView.swift in Sources */,
+				004BE28B2A3838FA00A1C59C /* InfoView.swift in Sources */,
 				004BE27D2A38378800A1C59C /* MahinConnectApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
