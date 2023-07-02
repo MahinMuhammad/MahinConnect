@@ -8,13 +8,29 @@
 import SwiftUI
 
 struct InfoView: View {
+    
+    let text:String
+    let imageView:String
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        RoundedRectangle(cornerRadius: 25)
+            .frame(height: 50)
+            .foregroundColor(Color.white)
+            .overlay(
+                HStack{
+                    Image(systemName: imageView)
+                        .imageScale(.large)
+                        .foregroundColor(Color.green)
+                    Text(text)
+                        .foregroundColor(.black)
+                }
+            )
     }
 }
 
 struct InfoView_Previews: PreviewProvider {
     static var previews: some View {
-        InfoView()
+        InfoView(text: "Hello", imageView: "phone.fill")
+            .previewLayout(.sizeThatFits)
     }
 }

@@ -13,6 +13,8 @@
 		004BE2842A38378900A1C59C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 004BE2832A38378900A1C59C /* Preview Assets.xcassets */; };
 		004BE28B2A3838FA00A1C59C /* InfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004BE28A2A3838FA00A1C59C /* InfoView.swift */; };
 		004BE28D2A38394200A1C59C /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004BE28C2A38394200A1C59C /* WebView.swift */; };
+		004BE28F2A383A6100A1C59C /* MahinCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 004BE28E2A383A6100A1C59C /* MahinCardView.swift */; };
+		004BE2922A383AF400A1C59C /* Pacifico-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 004BE2912A383AF400A1C59C /* Pacifico-Regular.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,9 @@
 		004BE2832A38378900A1C59C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		004BE28A2A3838FA00A1C59C /* InfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoView.swift; sourceTree = "<group>"; };
 		004BE28C2A38394200A1C59C /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		004BE28E2A383A6100A1C59C /* MahinCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MahinCardView.swift; sourceTree = "<group>"; };
+		004BE2912A383AF400A1C59C /* Pacifico-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Pacifico-Regular.ttf"; sourceTree = "<group>"; };
+		004BE2952A383B3B00A1C59C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,10 +60,13 @@
 		004BE27B2A38378800A1C59C /* MahinConnect */ = {
 			isa = PBXGroup;
 			children = (
+				004BE2952A383B3B00A1C59C /* Info.plist */,
+				004BE2902A383AC600A1C59C /* Fonts */,
 				004BE27C2A38378800A1C59C /* MahinConnectApp.swift */,
 				004BE27E2A38378800A1C59C /* ContentView.swift */,
-				004BE28A2A3838FA00A1C59C /* InfoView.swift */,
 				004BE28C2A38394200A1C59C /* WebView.swift */,
+				004BE28E2A383A6100A1C59C /* MahinCardView.swift */,
+				004BE28A2A3838FA00A1C59C /* InfoView.swift */,
 				004BE2802A38378900A1C59C /* Assets.xcassets */,
 				004BE2822A38378900A1C59C /* Preview Content */,
 			);
@@ -71,6 +79,14 @@
 				004BE2832A38378900A1C59C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		004BE2902A383AC600A1C59C /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				004BE2912A383AF400A1C59C /* Pacifico-Regular.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -131,6 +147,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				004BE2922A383AF400A1C59C /* Pacifico-Regular.ttf in Resources */,
 				004BE2842A38378900A1C59C /* Preview Assets.xcassets in Resources */,
 				004BE2812A38378900A1C59C /* Assets.xcassets in Resources */,
 			);
@@ -143,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				004BE28F2A383A6100A1C59C /* MahinCardView.swift in Sources */,
 				004BE27F2A38378800A1C59C /* ContentView.swift in Sources */,
 				004BE28D2A38394200A1C59C /* WebView.swift in Sources */,
 				004BE28B2A3838FA00A1C59C /* InfoView.swift in Sources */,
@@ -278,6 +296,7 @@
 				DEVELOPMENT_TEAM = JTC82K5425;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MahinConnect/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -307,6 +326,7 @@
 				DEVELOPMENT_TEAM = JTC82K5425;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MahinConnect/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

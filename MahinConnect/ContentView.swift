@@ -8,14 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    let url:String = "https://mahinmuhammad.github.io/view/home.html"
+    @State private var showMahinCard = true
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
-        }
-        .padding()
+        WebView(urlString: url)
+            .sheet(isPresented: $showMahinCard, content: MahinCardView.init)
     }
 }
 
